@@ -4,8 +4,8 @@ import './landing-page-howtoplay.scss';
 export const LandingPageHowToPlay: React.FC = () => {
   return(
     <div className="landingPageHowToPlay">
-        To play Wonky Chess, it is white to move!<br></br>
-        <b>Caution:</b> Your opponent may be a little wonky!
+        <b>How to Play:</b> <br></br>
+        Chess is a 2 player turn based game that starts with white to move. 
     </div>
   )
 }
