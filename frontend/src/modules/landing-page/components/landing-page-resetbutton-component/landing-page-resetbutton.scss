@@ -1,26 +1,24 @@
-button {
+.resetButton {
   border: 0;
   outline: 0;
   color: white;
-  background-color: rgb(84, 105, 212);
+  background-color: rgb(77, 117, 227);
   border-radius: 4px;
-  font-size: 1vw;
+  font-size: 2vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-weight: 500;
-  padding: 3vh 3vw;
+  padding: 5vh 5vw;
   line-height: 0vh;
   display: inline-block;
   min-height: 28px;
   transition: background-color .24s,box-shadow .24s;
   max-height: 1vw;
-  margin-left: 20vw;
+  margin-left: 18vw;
   margin-right: auto;
-  overflow: hidden;
-  margin-top: 20vw;
-
+  margin-top: 40vh;
 }
-button:hover {
+.resetButton:hover {
   color: rgb(206, 197, 199);
   background-color: rgb(0, 0, 0);
 }
